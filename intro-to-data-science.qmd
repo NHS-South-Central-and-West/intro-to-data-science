@@ -1,0 +1,192 @@
+---
+title: "Demystifying Data Science"
+subtitle: "Understanding the Role Data Science Can Play in Healthcare"
+author: "Paul Johnson"
+title-slide-attributes:
+    data-background-image: "assets/logo.jpg"
+    data-background-position: "right 10% bottom 5%"
+    data-background-size: "25%"
+    data-background-opacity: "1"
+from: markdown+emoji
+format: 
+  revealjs:
+    theme: assets/scw_theme.scss
+    # logo: assets/logo.jpg
+    transition: fade
+    background-transition: fade
+    email-obfuscation: javascript
+    controls: true
+    controls-layout: bottom-right
+    preview-links: true
+    css: [assets/custom.css]
+    header-includes: |
+      <link rel="stylesheet"
+      href="assets/fontawesome-free-6.1.2-web/css/font-awesome.min.css">
+      <script defer src="assets/fontawesome-free-6.1.2-web/js/all.min.js"></script>
+code-link: true
+execute:
+  echo: true
+  freeze: auto
+---
+
+## Introducing... Myself?
+
+<br>
+<br>
+🧪 Principal Data Scientist - Population Health Management
+<br>
+<br>
+🎓 Previously a Political Scientist at University of Houston, Texas
+<br>
+<br>
+📈 Specialising in Research Design, Statistical Modeling & Inference, and Machine Learning
+
+
+# What is Data Science?
+
+Beyond the Buzzwords
+
+## The Intersection of Statistics & Engineering
+
+<br><br>
+
+> Data Scientist (n.): Person who is better at statistics than any software engineer and better at software engineering than any statistician.
+
+::: aside
+
+&mdash; Josh Wills (@josh_wills) <a href="https://twitter.com/josh_wills/status/198093512149958656?ref_src=twsrc%5Etfw">May 3, 2012</a>
+
+:::
+
+## Definition?
+
+
+
+## Jacks of All (Data) Trades
+
+Some common themes:
+
+-   It involves drawing complex insights from large amounts of data
+-   It combines elements of statistics, data analytics, software engineering, data engineering, and research science
+-   The potential skillset is so wide that it is better to think of a team of scientists covering all bases
+
+## Drawing Complex Insights
+
+![](https://i.redd.it/3h3j688ettb81.png){fig-align="center"}
+
+## AI ≠ Machine Learning ≠ Data Science
+
+::: {layout-ncol=2}
+
+::: {#fig}
+
+<img height="500" src="assets/venn.png">
+
+:::
+
+-   Data Science has **some** overlap with AI, but they are not the same thing.
+    -   It's not robots and self-driving cars!
+-   Machine Learning and Deep Learning are methods a data scientist could use to find a solution to a business problem
+
+:::
+
+## It's All Just Statistics Anyway...
+
+![](https://i.redd.it/gylddfxrqpz71.jpg){fig-align="center"}
+
+# The Data Science Skillset
+
+What Does a Data Scientist Look Like?
+
+## Foundational Skills
+
+-   Math - Linear Algebra, Calculus, Probability & Statistics
+-   Computer Science - Programming, Software Engineering, Data Management
+-   Research - Scientific Reasoning & Communication, Quantitative Methods, Research Design
+<br><br><br>
+-   ... It is more than just coding!
+
+## Soft Skills
+
+-   Curiosity
+-   Creativity
+-   Communication Skills
+
+## Domains of Data Science
+
+-   Machine Learning
+-   Deep Learning
+-   Decision Optimisation
+-   Statistical Inference
+<br><br><br>
+-   Plus Lots More... (Some of Which Haven't Been Invented Yet!)
+
+# Data Science in the NHS (and SCW)
+
+Why do we need it?
+
+## Technological Advancements
+
+-   The exponential growth in the availability (and complexity) of data has meant a need for going further than descriptive analytics
+    -   Complex statistical models that replicate the complex data generating process
+-   The exponential growth in computing power has made these complex statistical models accessible beyond the tech industry and computer science research
+
+## Keeping Up with the Joneses
+
+-   Every industry is experiencing these technological advancements
+    -   Some industries are utilising it slower than others
+-   The NHS has a lot of data, and using it effectively serves significant public good
+-   Every CSU will realise this (if they haven't already)
+
+# Use Cases
+
+## Machine Learning
+
+Predicting Heart Disease
+
+-   Supervised machine learning problem - classification
+-   Tabular data - probably use a gradient boosting model
+-   Could help to identify and prioritize high risk cases
+
+## Deep Learning
+
+Identifying symptoms of diabetic retinopathy from retinal scans
+
+-   Using unstructured data (images), requires a deep learning approach
+-   Convolutional neural networks have had success in this domain
+-   Could significantly reduce the grading workload
+
+## Decision Optimisation
+
+Assigning resources within a hospital based on forecasted demands
+
+-   Agent-based modeling?
+-   Forecasting?
+-   Could reduce waiting times in hospitals
+
+## Statistical Inference
+
+Understanding the role that deprivation plays in health outcomes
+
+-   Hierarchical data structure with complex causal pathways
+-   Bayesian Mixed Models
+-   Could help us better understand what role social factors play in health outcomes
+    -   Leading to better policy interventions!
+    
+# Thank You!
+
+For more information and to get involved:
+<br>
+
+<ul >
+<i class="fa-solid fa-envelope"></i> [paul.johnson50@nhs.net](mailto: paul.johnson50@nhs.net)
+</ul>
+
+<br>
+
+Code for this presentation is available online:
+<br>
+
+<ul >
+<i class="fa-brands fa-github"></i> [github.com/paulj1989/slides](https://github.com/paulj1989/slides)
+</ul>
