@@ -208,5 +208,5 @@ Code for this presentation is available online:
 <br>
 
 <ul >
-<i class="fa-brands fa-github"></i> [github.com/nhs-scw/intro-to-data-science](https://github.com/nhs-scw/intro-to-data-science)
+<i class="fa-brands fa-github"></i> [/nhs-south-central-and-west/intro-to-data-science](https://github.com/nhs-south-central-and-west/intro-to-data-science)
 </ul>
