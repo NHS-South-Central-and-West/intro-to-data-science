@@ -58,17 +58,13 @@ Beyond the Buzzwords
 
 :::
 
-## Definition?
-
-
-
 ## Jacks of All (Data) Trades
 
 Some common themes:
 
 -   It involves drawing complex insights from large amounts of data
 -   It combines elements of statistics, data analytics, software engineering, data engineering, and research science
--   The potential skillset is so wide that it is better to think of a team of scientists covering all bases
+-   The potential skillset is so wide that this is usually served by multiple people in a data science team
 
 ## Drawing Complex Insights
 
@@ -84,9 +80,9 @@ Some common themes:
 
 :::
 
--   Data Science has **some** overlap with AI, but they are not the same thing.
-    -   It's not robots and self-driving cars!
--   Machine Learning and Deep Learning are methods a data scientist could use to find a solution to a business problem
+-   Data Science leverages approaches to AI, including ML and DL, to find solutions to business problems
+-   But there are often simpler solutions
+-   And there are lots of problems for which ML and DL are not appropriate
 
 :::
 
@@ -110,7 +106,10 @@ What Does a Data Scientist Look Like?
 
 -   Curiosity
 -   Creativity
--   Communication Skills
+-   Communication
+-   Storytelling
+-   Critical Thinking
+-   A passion for finding solutions to complex problems!
 
 ## Domains of Data Science
 
@@ -119,16 +118,16 @@ What Does a Data Scientist Look Like?
 -   Decision Optimisation
 -   Statistical Inference
 <br><br><br>
--   Plus Lots More... (Some of Which Haven't Been Invented Yet!)
+-   Plus Lots More...
 
-# Data Science in the NHS (and SCW)
+# Data Science in the NHS
 
 Why do we need it?
 
 ## Technological Advancements
 
--   The exponential growth in the availability (and complexity) of data has meant a need for going further than descriptive analytics
-    -   Complex statistical models that replicate the complex data generating process
+-   The exponential growth in the availability (and complexity) of data demands a more complex approach than descriptive analytics
+    -   Statistical models that replicate the complex data generating process
 -   The exponential growth in computing power has made these complex statistical models accessible beyond the tech industry and computer science research
 
 ## Keeping Up with the Joneses
@@ -162,7 +161,7 @@ Assigning resources within a hospital based on forecasted demands
 
 -   Agent-based modeling?
 -   Forecasting?
--   Could reduce waiting times in hospitals
+-   Could reduce waiting times in hospitals and use staff resources more efficiently
 
 ## Statistical Inference
 
