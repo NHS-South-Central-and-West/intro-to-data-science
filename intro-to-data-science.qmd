@@ -3,7 +3,7 @@ title: "Demystifying Data Science"
 subtitle: "Understanding the Role Data Science Can Play in Healthcare"
 author: "Paul Johnson"
 title-slide-attributes:
-    data-background-image: "assets/logo.jpg"
+    data-background-image: "assets/images/logo.jpg"
     data-background-position: "right 10% bottom 5%"
     data-background-size: "25%"
     data-background-opacity: "1"
