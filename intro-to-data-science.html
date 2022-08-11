@@ -1,7 +1,14 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-  <meta charset="utf-8">
-  <meta name="generator" content="quarto-0.9.188">
+<script src="intro-to-data-science_files/libs/clipboard/clipboard.min.js"></script>
+<script src="intro-to-data-science_files/libs/quarto-html/tabby.min.js"></script>
+<script src="intro-to-data-science_files/libs/quarto-html/popper.min.js"></script>
+<script src="intro-to-data-science_files/libs/quarto-html/tippy.umd.min.js"></script>
+<link href="intro-to-data-science_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="intro-to-data-science_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="intro-to-data-science_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.0.37">
+
   <meta name="author" content="Paul Johnson">
   <title>Demystifying Data Science</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,14 +25,7 @@
     ul.task-list{list-style: none;}
   </style>
   <link rel="stylesheet" href="intro-to-data-science_files/libs/revealjs/dist/theme/quarto.css" id="theme">
-
-  <script src="intro-to-data-science_files/libs/clipboard/clipboard.min.js"></script>
-  <script src="intro-to-data-science_files/libs/quarto-html/tabby.min.js"></script>
-  <script src="intro-to-data-science_files/libs/quarto-html/popper.min.js"></script>
-  <script src="intro-to-data-science_files/libs/quarto-html/tippy.umd.min.js"></script>
-  <link href="intro-to-data-science_files/libs/quarto-html/tippy.css" rel="stylesheet">
-  <link href="intro-to-data-science_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet">
-  <link id="quarto-text-highlighting-styles" href="intro-to-data-science_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/custom.css">
   <link href="intro-to-data-science_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="intro-to-data-science_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="intro-to-data-science_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -39,7 +39,7 @@
   }
 
   .callout.callout-style-simple { 
-    padding: 0em 0.7em;
+    padding: 0em 0.5em;
     border-left: solid #acacac .3rem;
     border-right: solid 1px silver;
     border-top: solid 1px silver;
@@ -150,8 +150,7 @@
     display: none !important;
   }
 
-  .callout.callout-captioned .callout-body > :last-child,
-  .callout.callout-captioned .callout-body > div > :last-child {
+  .callout.callout-captioned .callout-body > .callout-content > :last-child {
     margin-bottom: 0.5rem;
   }
 
@@ -317,9 +316,8 @@
   </style>
   <link rel="stylesheet" href="assets/fontawesome-free-6.1.2-web/css/font-awesome.min.css">
   <script defer="" src="assets/fontawesome-free-6.1.2-web/js/all.min.js"></script>
-  <link rel="stylesheet" href="assets/custom.css">
 </head>
-<body>
+<body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
@@ -340,13 +338,13 @@
 </section>
 <section id="a-new-field-built-on-old-traditions" class="slide level2">
 <h2>A New Field Built on Old Traditions</h2>
-<div class="quarto-layout-panel">
+<div id="fig" class="quarto-layout-panel">
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
 <div id="fig-monk1" class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="assets/images/ds-monk.jpg" data-align="center" width="400"></p>
-<p></p><figcaption aria-hidden="true">Figure 1: A monk doing science</figcaption><p></p>
+<p></p><figcaption>Figure 1: A monk doing science</figcaption><p></p>
 </figure>
 </div>
 </div>
@@ -354,7 +352,7 @@
 <div id="fig-monk2" class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="assets/images/ds-monk2.jpg" data-align="center" width="400"></p>
-<p></p><figcaption aria-hidden="true">Figure 2: Another monk doing science!</figcaption><p></p>
+<p></p><figcaption>Figure 2: Another monk doing science!</figcaption><p></p>
 </figure>
 </div>
 </div>
@@ -370,6 +368,16 @@
 
 <aside><div>
 <p>— Josh Wills (<span class="citation" data-cites="josh_wills">@josh_wills</span>) <a href="https://twitter.com/josh_wills/status/198093512149958656?ref_src=twsrc%5Etfw">May 3, 2012</a></p>
+</div></aside></section>
+<section id="the-art-of-productionising-models" class="slide level2">
+<h2>The Art of Productionising Models</h2>
+<p><br><br></p>
+<blockquote>
+<p>Statisticians, like artists, have the bad habit of falling in love with their models.</p>
+</blockquote>
+
+<aside><div>
+<p>— George E. P. Box (1919 - 2013) <br><br> (One of the 20th century’s great statisticians, famous for the aphorism “All models are wrong, but some are useful”)</p>
 </div></aside></section>
 <section id="jacks-of-all-data-trades" class="slide level2">
 <h2>Jacks of All (Data) Trades</h2>
@@ -540,19 +548,19 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#11
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="intro-to-data-science_files/libs/revealjs/dist/reveal.js"></script>
-
   <!-- reveal.js plugins -->
   <script src="intro-to-data-science_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
   <script src="intro-to-data-science_files/libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="intro-to-data-science_files/libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="intro-to-data-science_files/libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="intro-to-data-science_files/libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
   <script src="intro-to-data-science_files/libs/revealjs/plugin/notes/notes.js"></script>
   <script src="intro-to-data-science_files/libs/revealjs/plugin/search/search.js"></script>
   <script src="intro-to-data-science_files/libs/revealjs/plugin/zoom/zoom.js"></script>
   <script src="intro-to-data-science_files/libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
-
 
   <script>
 
@@ -566,10 +574,9 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#11
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-
 'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
-
+ 
         // Display controls in the bottom right corner
         controls: true,
 
@@ -747,8 +754,26 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#11
         ]
       });
     </script>
-    <script type="application/javascript">
+    <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
       const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
       tabsets.forEach(function(tabset) {
         const tabby = new Tabby('#' + tabset.id);
@@ -765,7 +790,10 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#11
         button.blur();
         // flash "checked"
         button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
         setTimeout(function() {
+          button.setAttribute("title", currentTitle);
           button.classList.remove('code-copy-button-checked');
         }, 1000);
         // clear code selection

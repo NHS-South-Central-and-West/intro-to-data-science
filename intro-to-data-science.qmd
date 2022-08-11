@@ -68,6 +68,21 @@ Beyond the Buzzwords
 
 :::
 
+## The Art of Productionising Models
+
+<br><br>
+
+> Statisticians, like artists, have the bad habit of falling in love with their models.
+
+::: aside
+
+&mdash; George E. P. Box (1919 - 2013)
+<br><br>
+(One of the 20th century's great statisticians, famous for the aphorism "All models are wrong, but some are useful")
+
+:::
+
+
 ## Jacks of All (Data) Trades
 
 Some common themes:
