@@ -68,21 +68,6 @@ Beyond the Buzzwords
 
 :::
 
-## The Art of Productionising Models
-
-<br><br>
-
-> Statisticians, like artists, have the bad habit of falling in love with their models.
-
-::: aside
-
-&mdash; George E. P. Box (1919 - 2013)
-<br><br>
-(One of the 20th century's great statisticians, famous for the aphorism "All models are wrong, but some are useful")
-
-:::
-
-
 ## Jacks of All (Data) Trades
 
 Some common themes:
@@ -200,13 +185,10 @@ Assigning resources within a hospital based on forecasted demands
 -   Could reduce waiting times in hospitals and use staff resources more efficiently
 
 ## Statistical Inference
-
-Understanding the role that deprivation plays in health outcomes
-
--   Hierarchical data structure with complex causal pathways
--   Bayesian Mixed Models
--   Could help us better understand what role social factors play in health outcomes
-    -   Leading to better policy interventions!
+    
+Using a Bayesian counterfacctual inference model to estimate excess deaths from COVID-19.[^1]
+    
+[^1]: [Counterfactual Inference: Calculating Excess Deaths Due to COVID-19](https://www.pymc.io/projects/examples/en/latest/causal_inference/excess_deaths.html)
     
 # Thank You!
 
