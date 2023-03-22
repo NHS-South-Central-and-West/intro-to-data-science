@@ -7,7 +7,7 @@
 <link href="intro-to-data-science_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="intro-to-data-science_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="intro-to-data-science_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.0.37">
+  <meta name="generator" content="quarto-1.2.335">
 
   <meta name="author" content="Paul Johnson">
   <title>Demystifying Data Science</title>
@@ -19,10 +19,15 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
     ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
   </style>
   <link rel="stylesheet" href="intro-to-data-science_files/libs/revealjs/dist/theme/quarto.css" id="theme">
   <link rel="stylesheet" href="assets/custom.css">
@@ -321,12 +326,19 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="assets/images/logo.jpg" data-background-opacity="1" data-background-position="right 10% bottom 5%" data-background-size="25%" class="center">
+<section id="title-slide" data-background-image="assets/images/logo.jpg" data-background-opacity="1" data-background-position="right 10% bottom 5%" data-background-size="25%" class="quarto-title-block center">
   <h1 class="title">Demystifying Data Science</h1>
   <p class="subtitle">Understanding the Role Data Science Can Play in Healthcare</p>
-  <p class="author">Paul Johnson</p>
-</section>
 
+<div class="quarto-title-authors">
+<div class="quarto-title-author">
+<div class="quarto-title-author-name">
+Paul Johnson 
+</div>
+</div>
+</div>
+
+</section>
 <section id="introducing-myself" class="slide level2">
 <h2>Introducing… Myself?</h2>
 <p><br> <br> 🧪 Principal Data Scientist - Population Health Management <br> <br> 🎓 Previously a Political Scientist at University of Houston, Texas <br> <br> 📈 Specialising in research design, statistical modelling &amp; inference, and machine learning</p>
@@ -344,7 +356,7 @@
 <div id="fig-monk1" class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="assets/images/ds-monk.jpg" data-align="center" width="400"></p>
-<p></p><figcaption>Figure 1: A monk doing science</figcaption><p></p>
+<p></p><figcaption>Figure&nbsp;1: A monk doing science</figcaption><p></p>
 </figure>
 </div>
 </div>
@@ -352,7 +364,7 @@
 <div id="fig-monk2" class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="assets/images/ds-monk2.jpg" data-align="center" width="400"></p>
-<p></p><figcaption>Figure 2: Another monk doing science!</figcaption><p></p>
+<p></p><figcaption>Figure&nbsp;2: Another monk doing science!</figcaption><p></p>
 </figure>
 </div>
 </div>
@@ -416,7 +428,7 @@
 <h2>Foundational Skills</h2>
 <ul>
 <li>Math - Linear algebra, calculus, probability &amp; statistics</li>
-<li>Computer Science - Programming, software engineering, data management</li>
+<li>Computer Science - Programming, software engineering, data engineering</li>
 <li>Research - Scientific reasoning &amp; communication, quantitative methods, research design <br><br><br> … It is more than just coding!</li>
 </ul>
 </section>
@@ -436,12 +448,12 @@
 <section id="some-domains-of-data-science" class="slide level2">
 <h2>(Some) Domains of Data Science</h2>
 <ul>
-<li>Machine Learning - Supervised learning (regression/classification), unsupervised learning (clustering)</li>
-<li>Deep Learning - Computer vision, natural language processing</li>
-<li>Decision Optimisation - Discrete event simulation, agent-based simulation</li>
-<li>Statistical Inference - Bayesian statistics, causal inference, time series forecasting</li>
+<li>Machine Learning</li>
+<li>Deep Learning</li>
+<li>Statistics</li>
+<li>Data Engineering</li>
+<li>Software Engineering</li>
 </ul>
-<p>Plus much, much more…</p>
 </section></section>
 <section>
 <section id="data-science-in-the-nhs" class="title-slide slide level1 center">
@@ -474,37 +486,47 @@
 <h1>Potential Use Cases</h1>
 <p>Where Can (and Has) Data Science Been Applied in Healthcare?</p>
 </section>
-<section id="machine-learning" class="slide level2">
-<h2>Machine Learning</h2>
-<p>Predicting Heart Disease</p>
+<section id="predicting-hospital-readmissions" class="slide level2">
+<h2>Predicting Hospital Readmissions</h2>
+<p>Hospital readmissions are a significant cost to the NHS, and can be a sign of poor quality of care.</p>
 <ul>
-<li>Supervised machine learning problem - classification</li>
-<li>Tabular data - probably use a gradient boosting model</li>
-<li>Could help to identify and prioritize high risk cases</li>
-</ul>
-</section>
-<section id="deep-learning" class="slide level2">
-<h2>Deep Learning</h2>
-<p>Identifying symptoms of diabetic retinopathy from retinal scans</p>
+<li>Several ways to approach this:
 <ul>
-<li>Using unstructured data (images), requires a deep learning approach</li>
-<li>Convolutional neural networks have had success in this domain</li>
-<li>Could significantly reduce the grading workload</li>
+<li>Classification</li>
+<li>Survival analysis</li>
+<li>Probabilistic forecasting</li>
+</ul></li>
 </ul>
+<p>Could help to identify patients at risk of readmission and improve the quality of care.</p>
 </section>
-<section id="decision-optimisation" class="slide level2">
-<h2>Decision Optimisation</h2>
-<p>Assigning resources within a hospital based on forecasted demands</p>
+<section id="diagnosing-diabetic-retinopathy" class="slide level2">
+<h2>Diagnosing Diabetic Retinopathy</h2>
+<p>Grading retinal images is a high-level pattern recognition task. Perfect for deep learning!</p>
 <ul>
-<li>Agent-based modeling?</li>
-<li>Forecasting?</li>
-<li>Could reduce waiting times in hospitals and use staff resources more efficiently</li>
+<li>Convolutional neural networks are the most common deep learning architecture for image classification (though transformers are becoming more popular)</li>
+<li>Some common DL frameworks include PyTorch, TensorFlow, Keras, Lightning</li>
 </ul>
+<p>Could significantly reduce the grading workload, giving graders more time to focus on more complex cases.</p>
 </section>
-<section id="statistical-inference" class="slide level2">
-<h2>Statistical Inference</h2>
-<p>Using a Bayesian counterfacctual inference model to estimate excess deaths from COVID-19.<sup>1</sup></p>
-<aside><ol class="aside-footnotes"><li id="fn1" role="doc-endnote"><p><a href="https://www.pymc.io/projects/examples/en/latest/causal_inference/excess_deaths.html">Counterfactual Inference: Calculating Excess Deaths Due to COVID-19</a></p></li></ol></aside></section></section>
+<section id="automating-dashboards-reports" class="slide level2">
+<h2>Automating Dashboards &amp; Reports</h2>
+<p>There’s a lot of data in the NHS, and a lot of reports to be generated from it.</p>
+<ul>
+<li>Automating the generation of dahsboards andreports can save a lot of time</li>
+<li>Data pipelines and workflow orchestration tools can be used to automate the process</li>
+<li>Could be used to generate reports on a regular basis</li>
+</ul>
+<p>Could save a lot of time for analysts, giving them time to focus on more complex tasks.</p>
+</section>
+<section id="modelling-excess-deaths-from-covid-19" class="slide level2">
+<h2>Modelling Excess Deaths From COVID-19</h2>
+<p>It’s difficult to estimate excess deaths due to multiple factors.</p>
+<ul>
+<li>Bayesian counterfactual inference can help do this<sup>1</sup></li>
+<li>Can estimate expected deaths and compare this to the observed number of deaths</li>
+</ul>
+<p>This could help to understand the impact of COVID-19 on the NHS, and could be used to inform future planning and resource allocation.</p>
+<aside><ol class="aside-footnotes"><li id="fn1"><p><a href="https://www.pymc.io/projects/examples/en/latest/causal_inference/excess_deaths.html">Counterfactual Inference: Calculating Excess Deaths Due to COVID-19</a></p></li></ol></aside></section></section>
 <section id="thank-you" class="title-slide slide level1 center">
 <h1>Thank You!</h1>
 <p>For more information and to get involved: <br></p>
@@ -517,9 +539,9 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#11
 </script><noscript>paul.johnson50@nhs.net (%20paul.johnson50 at nhs dot net)</noscript>
 </ul>
 <p><br></p>
-<p>Code for this presentation is available online: <br></p>
+<p>For Presentation Code &amp; Data Science Resources: <br></p>
 <ul>
-<i class="fa-brands fa-github"></i> <a href="https://github.com/nhs-south-central-and-west/intro-to-data-science">/nhs-south-central-and-west/intro-to-data-science</a>
+<i class="fa-brands fa-github"></i> <a href="https://github.com/nhs-south-central-and-west/">/NHS-South-Central-and-West</a>
 </ul>
 <div class="footer footer-default">
 
@@ -776,7 +798,24 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#11
         button.classList.add('code-copy-button-checked');
         var currentTitle = button.getAttribute("title");
         button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
         setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
           button.setAttribute("title", currentTitle);
           button.classList.remove('code-copy-button-checked');
         }, 1000);
@@ -806,31 +845,50 @@ document.write('<a h'+'ref'+'="ma'+'ilto'+':'+e+'" clas'+'s="em' + 'ail">'+'&#11
       for (var i=0; i<noterefs.length; i++) {
         const ref = noterefs[i];
         tippyHover(ref, function() {
-          let href = ref.getAttribute('href');
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
           return note.innerHTML;
         });
       }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
       var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
       for (var i=0; i<bibliorefs.length; i++) {
         const ref = bibliorefs[i];
-        const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-        tippyHover(ref, function() {
-          var popup = window.document.createElement('div');
-          cites.forEach(function(cite) {
-            var citeDiv = window.document.createElement('div');
-            citeDiv.classList.add('hanging-indent');
-            citeDiv.classList.add('csl-entry');
-            var biblioDiv = window.document.getElementById('ref-' + cite);
-            if (biblioDiv) {
-              citeDiv.innerHTML = biblioDiv.innerHTML;
-            }
-            popup.appendChild(citeDiv);
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
           });
-          return popup.innerHTML;
-        });
+        }
       }
     });
     </script>

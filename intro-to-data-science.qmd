@@ -111,7 +111,7 @@ What Does a Data Scientist Look Like?
 ## Foundational Skills
 
 -   Math - Linear algebra, calculus, probability & statistics
--   Computer Science - Programming, software engineering, data management
+-   Computer Science - Programming, software engineering, data engineering
 -   Research - Scientific reasoning & communication, quantitative methods, research design
 <br><br><br>
 ... It is more than just coding!
@@ -132,12 +132,11 @@ Most of all, a passion for finding solutions to complex problems!
 
 ## (Some) Domains of Data Science
 
--   Machine Learning - Supervised learning (regression/classification), unsupervised learning (clustering)
--   Deep Learning - Computer vision, natural language processing
--   Decision Optimisation - Discrete event simulation, agent-based simulation
--   Statistical Inference - Bayesian statistics, causal inference, time series forecasting
-
-Plus much, much more...
+-   Machine Learning
+-   Deep Learning
+-   Statistics
+-   Data Engineering
+-   Software Engineering
 
 # Data Science in the NHS
 
@@ -160,34 +159,45 @@ Why do we need it?
 
 Where Can (and Has) Data Science Been Applied in Healthcare?
 
-## Machine Learning
+## Predicting Hospital Readmissions
 
-Predicting Heart Disease
+Hospital readmissions are a significant cost to the NHS, and can be a sign of poor quality of care.
 
--   Supervised machine learning problem - classification
--   Tabular data - probably use a gradient boosting model
--   Could help to identify and prioritize high risk cases
+-   Several ways to approach this:
+    -   Classification
+    -   Survival analysis
+    -   Probabilistic forecasting
 
-## Deep Learning
+Could help to identify patients at risk of readmission and improve the quality of care.
 
-Identifying symptoms of diabetic retinopathy from retinal scans
+## Diagnosing Diabetic Retinopathy
 
--   Using unstructured data (images), requires a deep learning approach
--   Convolutional neural networks have had success in this domain
--   Could significantly reduce the grading workload
+Grading retinal images is a high-level pattern recognition task. Perfect for deep learning!
 
-## Decision Optimisation
+-   Convolutional neural networks are the most common deep learning architecture for image classification (though transformers are becoming more popular)
+-   Some common DL frameworks include PyTorch, TensorFlow, Keras, Lightning
 
-Assigning resources within a hospital based on forecasted demands
+Could significantly reduce the grading workload, giving graders more time to focus on more complex cases.
 
--   Agent-based modeling?
--   Forecasting?
--   Could reduce waiting times in hospitals and use staff resources more efficiently
+## Automating Dashboards & Reports
 
-## Statistical Inference
-    
-Using a Bayesian counterfacctual inference model to estimate excess deaths from COVID-19.[^1]
-    
+There's a lot of data in the NHS, and a lot of reports to be generated from it.
+
+-   Automating the generation of dahsboards andreports can save a lot of time
+-   Data pipelines and workflow orchestration tools can be used to automate the process
+-   Could be used to generate reports on a regular basis
+
+Could save a lot of time for analysts, giving them time to focus on more complex tasks.
+
+## Modelling Excess Deaths From COVID-19
+
+It's difficult to estimate excess deaths due to multiple factors.
+
+-   Bayesian counterfactual inference can help do this[^1]
+-   Can estimate expected deaths and compare this to the observed number of deaths
+
+This could help to understand the impact of COVID-19 on the NHS, and could be used to inform future planning and resource allocation.
+
 [^1]: [Counterfactual Inference: Calculating Excess Deaths Due to COVID-19](https://www.pymc.io/projects/examples/en/latest/causal_inference/excess_deaths.html)
     
 # Thank You!
@@ -201,9 +211,10 @@ For more information and to get involved:
 
 <br>
 
-Code for this presentation is available online:
+For Presentation Code & Data Science Resources:
 <br>
 
 <ul >
-<i class="fa-brands fa-github"></i> [/nhs-south-central-and-west/intro-to-data-science](https://github.com/nhs-south-central-and-west/intro-to-data-science)
+<i class="fa-brands fa-github"></i> [/NHS-South-Central-and-West](https://github.com/nhs-south-central-and-west/)
 </ul>
+
