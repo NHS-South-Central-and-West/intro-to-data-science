@@ -2,31 +2,6 @@
 title: "Demystifying Data Science"
 subtitle: "Understanding the Role Data Science Can Play in Healthcare"
 author: "Paul Johnson"
-title-slide-attributes:
-    data-background-image: "assets/images/logo.jpg"
-    data-background-position: "right 10% bottom 5%"
-    data-background-size: "25%"
-    data-background-opacity: "1"
-from: markdown+emoji
-format: 
-  revealjs:
-    theme: assets/scw_theme.scss
-    # logo: assets/logo.jpg
-    transition: fade
-    background-transition: fade
-    email-obfuscation: javascript
-    controls: true
-    controls-layout: bottom-right
-    preview-links: true
-    css: [assets/custom.css]
-    header-includes: |
-      <link rel="stylesheet"
-      href="assets/fontawesome-free-6.1.2-web/css/font-awesome.min.css">
-      <script defer src="assets/fontawesome-free-6.1.2-web/js/all.min.js"></script>
-code-link: true
-execute:
-  echo: true
-  freeze: auto
 ---
 
 ## Introducing... Myself?
@@ -50,9 +25,9 @@ Beyond the Buzzwords
 
 ::: {#fig layout-ncol=2}
 
-![A monk doing science](assets/images/ds-monk.jpg){#fig-monk1 align="center" width="400"}
+![A monk doing science](man/figures/ds-monk.jpg){#fig-monk1 align="center" width="400"}
 
-![Another monk doing science!](assets/images/ds-monk2.jpg){#fig-monk2 align="center" width="400"}
+![Another monk doing science!](man/figures/ds-monk2.jpg){#fig-monk2 align="center" width="400"}
 
 :::
 
@@ -78,7 +53,7 @@ Some common themes:
 
 ## Drawing Complex Insights
 
-![](assets/images/terminator-stats.png){fig-align="center"}
+![](man/figures/terminator-stats.png){fig-align="center"}
 
 ## AI ≠ Machine Learning ≠ Data Science
 
@@ -86,7 +61,7 @@ Some common themes:
 
 ::: {#fig}
 
-![](assets/images/venn.png){#fig width="400"}
+![](man/figures/venn.png){#fig width="400"}
 
 :::
 
@@ -98,7 +73,7 @@ Some common themes:
 
 ## It's All Just Statistics Anyway...
 
-![](assets/images/dog-stats.jpg){fig-align="center"}
+![](man/figures/dog-stats.jpg){fig-align="center"}
 
 # The Data Science Skillset
 
@@ -106,7 +81,7 @@ What Does a Data Scientist Look Like?
 
 ## Dall-E Mini's 'Data Scientist'
 
-![When given the prompt "data scientist", this is what the GAN [Dall-E Mini](https://huggingface.co/spaces/dalle-mini/dalle-mini) returns...](assets/images/dalle-ds.png){fig-align="center"}
+![When given the prompt "data scientist", this is what the GAN [Dall-E Mini](https://huggingface.co/spaces/dalle-mini/dalle-mini) returns...](man/figures/dalle-ds.png){fig-align="center"}
 
 ## Foundational Skills
 
@@ -206,7 +181,7 @@ For more information and to get involved:
 <br>
 
 <ul >
-<i class="fa-solid fa-envelope"></i> [paul.johnson50@nhs.net](mailto: paul.johnson50@nhs.net)
+{{< fa solid envelope >}} [paul.johnson50@nhs.net](mailto: paul.johnson50@nhs.net)
 </ul>
 
 <br>
@@ -215,6 +190,6 @@ For Presentation Code & Data Science Resources:
 <br>
 
 <ul >
-<i class="fa-brands fa-github"></i> [/NHS-South-Central-and-West](https://github.com/nhs-south-central-and-west/)
+{{< fa brands github >}}[/NHS-South-Central-and-West](https://github.com/nhs-south-central-and-west/)
 </ul>
 
