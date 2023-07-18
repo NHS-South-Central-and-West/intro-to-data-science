@@ -1,0 +1,26 @@
+project:
+  type: website
+
+format: 
+  revealjs:
+    theme: scw_theme.scss
+    # logo: man/figures/logo.jpg
+    transition: fade
+    background-transition: fade
+    email-obfuscation: javascript
+    controls: true
+    controls-layout: bottom-right
+    preview-links: true
+
+code-link: true
+
+execute:
+  echo: true
+  freeze: auto
+
+title-slide-attributes:
+    data-background-image: "man/figures/logo.jpg"
+    data-background-position: "right 10% bottom 5%"
+    data-background-size: "25%"
+    data-background-opacity: "1"
+from: markdown+emoji
