@@ -1,3 +1,5 @@
-# intro-to-data-science
-Presentation slides explaining what data science is and the value it can bring to the NHS and SCW
+# Intro to Data Science
 
+Presentation slides explaining what data science is and the value it can bring to the NHS and SCW.
+
+For the code that produces the presentation, see the `index.qmd`.
