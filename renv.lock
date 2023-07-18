@@ -1,6 +1,6 @@
 {
   "R": {
-    "Version": "4.2.0",
+    "Version": "4.3.1",
     "Repositories": [
       {
         "Name": "CRAN",
@@ -11,11 +11,13 @@
   "Packages": {
     "renv": {
       "Package": "renv",
-      "Version": "0.15.5",
+      "Version": "0.17.3",
       "Source": "Repository",
       "Repository": "RSPM",
-      "Hash": "6a38294e7d12f5d8e656b08c5bd8ae34",
-      "Requirements": []
+      "Requirements": [
+        "utils"
+      ],
+      "Hash": "4543b8cd233ae25c6aba8548be9e747e"
     }
   }
 }
