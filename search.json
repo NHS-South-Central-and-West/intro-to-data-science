@@ -1,119 +1,119 @@
 [
   {
-    "objectID": "intro-to-data-science.html#introducing-myself",
-    "href": "intro-to-data-science.html#introducing-myself",
+    "objectID": "index.html#introducing-myself",
+    "href": "index.html#introducing-myself",
     "title": "Demystifying Data Science",
     "section": "Introducing… Myself?",
     "text": "Introducing… Myself?\n  🧪 Principal Data Scientist - Population Health Management   🎓 Previously a Political Scientist at University of Houston, Texas   📈 Specialising in research design, statistical modelling & inference, and machine learning"
   },
   {
-    "objectID": "intro-to-data-science.html#a-new-field-built-on-old-traditions",
-    "href": "intro-to-data-science.html#a-new-field-built-on-old-traditions",
+    "objectID": "index.html#a-new-field-built-on-old-traditions",
+    "href": "index.html#a-new-field-built-on-old-traditions",
     "title": "Demystifying Data Science",
     "section": "A New Field Built on Old Traditions",
     "text": "A New Field Built on Old Traditions\n\n\n\n\n\n\nFigure 1: A monk doing science\n\n\n\n\n\n\n\nFigure 2: Another monk doing science!"
   },
   {
-    "objectID": "intro-to-data-science.html#the-intersection-of-statistics-engineering",
-    "href": "intro-to-data-science.html#the-intersection-of-statistics-engineering",
+    "objectID": "index.html#the-intersection-of-statistics-engineering",
+    "href": "index.html#the-intersection-of-statistics-engineering",
     "title": "Demystifying Data Science",
     "section": "The Intersection of Statistics & Engineering",
     "text": "The Intersection of Statistics & Engineering\n\n\nData Scientist (n.): Person who is better at statistics than any software engineer and better at software engineering than any statistician.\n\n\n\n— Josh Wills (@josh_wills) May 3, 2012"
   },
   {
-    "objectID": "intro-to-data-science.html#jacks-of-all-data-trades",
-    "href": "intro-to-data-science.html#jacks-of-all-data-trades",
+    "objectID": "index.html#jacks-of-all-data-trades",
+    "href": "index.html#jacks-of-all-data-trades",
     "title": "Demystifying Data Science",
     "section": "Jacks of All (Data) Trades",
     "text": "Jacks of All (Data) Trades\nSome common themes:\n\nIt involves drawing complex insights from large amounts of data\nIt combines elements of statistics, data analytics, software engineering, data engineering, and research science\nThe potential skill set is so wide that this is usually served by multiple people in a data science team"
   },
   {
-    "objectID": "intro-to-data-science.html#drawing-complex-insights",
-    "href": "intro-to-data-science.html#drawing-complex-insights",
+    "objectID": "index.html#drawing-complex-insights",
+    "href": "index.html#drawing-complex-insights",
     "title": "Demystifying Data Science",
     "section": "Drawing Complex Insights",
     "text": "Drawing Complex Insights"
   },
   {
-    "objectID": "intro-to-data-science.html#ai-machine-learning-data-science",
-    "href": "intro-to-data-science.html#ai-machine-learning-data-science",
+    "objectID": "index.html#ai-machine-learning-data-science",
+    "href": "index.html#ai-machine-learning-data-science",
     "title": "Demystifying Data Science",
     "section": "AI ≠ Machine Learning ≠ Data Science",
     "text": "AI ≠ Machine Learning ≠ Data Science\n\n\n\n\n\n\n\nData science leverages approaches to AI, including ML and DL, to find solutions to business problems\nBut there are often simpler solutions\nAnd there are lots of problems for which ML and DL are not appropriate"
   },
   {
-    "objectID": "intro-to-data-science.html#its-all-just-statistics-anyway",
-    "href": "intro-to-data-science.html#its-all-just-statistics-anyway",
+    "objectID": "index.html#its-all-just-statistics-anyway",
+    "href": "index.html#its-all-just-statistics-anyway",
     "title": "Demystifying Data Science",
     "section": "It’s All Just Statistics Anyway…",
     "text": "It’s All Just Statistics Anyway…"
   },
   {
-    "objectID": "intro-to-data-science.html#dall-e-minis-data-scientist",
-    "href": "intro-to-data-science.html#dall-e-minis-data-scientist",
+    "objectID": "index.html#dall-e-minis-data-scientist",
+    "href": "index.html#dall-e-minis-data-scientist",
     "title": "Demystifying Data Science",
     "section": "Dall-E Mini’s ‘Data Scientist’",
     "text": "Dall-E Mini’s ‘Data Scientist’\n\nWhen given the prompt “data scientist”, this is what the GAN Dall-E Mini returns…"
   },
   {
-    "objectID": "intro-to-data-science.html#foundational-skills",
-    "href": "intro-to-data-science.html#foundational-skills",
+    "objectID": "index.html#foundational-skills",
+    "href": "index.html#foundational-skills",
     "title": "Demystifying Data Science",
     "section": "Foundational Skills",
     "text": "Foundational Skills\n\nMath - Linear algebra, calculus, probability & statistics\nComputer Science - Programming, software engineering, data engineering\nResearch - Scientific reasoning & communication, quantitative methods, research design  … It is more than just coding!"
   },
   {
-    "objectID": "intro-to-data-science.html#soft-skills-are-equally-as-important",
-    "href": "intro-to-data-science.html#soft-skills-are-equally-as-important",
+    "objectID": "index.html#soft-skills-are-equally-as-important",
+    "href": "index.html#soft-skills-are-equally-as-important",
     "title": "Demystifying Data Science",
     "section": "Soft Skills are Equally as Important!",
     "text": "Soft Skills are Equally as Important!\nThere is more to data science than the technical skills.\nFor example:\n\nCuriosity\nCreativity\nCommunication Skills\nStorytelling\nCritical Thinking\n\nMost of all, a passion for finding solutions to complex problems!"
   },
   {
-    "objectID": "intro-to-data-science.html#some-domains-of-data-science",
-    "href": "intro-to-data-science.html#some-domains-of-data-science",
+    "objectID": "index.html#some-domains-of-data-science",
+    "href": "index.html#some-domains-of-data-science",
     "title": "Demystifying Data Science",
     "section": "(Some) Domains of Data Science",
     "text": "(Some) Domains of Data Science\n\nMachine Learning\nDeep Learning\nStatistics\nData Engineering\nSoftware Engineering"
   },
   {
-    "objectID": "intro-to-data-science.html#technological-advancements",
-    "href": "intro-to-data-science.html#technological-advancements",
+    "objectID": "index.html#technological-advancements",
+    "href": "index.html#technological-advancements",
     "title": "Demystifying Data Science",
     "section": "Technological Advancements",
     "text": "Technological Advancements\n\nThe exponential growth in the availability (and complexity) of data demands a more complex approach than descriptive analytics\n\nStatistical models that replicate the complex data generating process\n\nThe exponential growth in computing power has made these complex statistical models accessible beyond the tech industry and computer science research"
   },
   {
-    "objectID": "intro-to-data-science.html#keeping-up-with-the-joneses",
-    "href": "intro-to-data-science.html#keeping-up-with-the-joneses",
+    "objectID": "index.html#keeping-up-with-the-joneses",
+    "href": "index.html#keeping-up-with-the-joneses",
     "title": "Demystifying Data Science",
     "section": "Keeping Up with the Joneses",
     "text": "Keeping Up with the Joneses\n\nEvery industry is experiencing these technological advancements\n\nSome industries are utilising it slower than others\n\nThe NHS has a lot of data, and using it effectively serves significant public good\nEvery CSU will realise this (if they haven’t already)"
   },
   {
-    "objectID": "intro-to-data-science.html#predicting-hospital-readmissions",
-    "href": "intro-to-data-science.html#predicting-hospital-readmissions",
+    "objectID": "index.html#predicting-hospital-readmissions",
+    "href": "index.html#predicting-hospital-readmissions",
     "title": "Demystifying Data Science",
     "section": "Predicting Hospital Readmissions",
     "text": "Predicting Hospital Readmissions\nHospital readmissions are a significant cost to the NHS, and can be a sign of poor quality of care.\n\nSeveral ways to approach this:\n\nClassification\nSurvival analysis\nProbabilistic forecasting\n\n\nCould help to identify patients at risk of readmission and improve the quality of care."
   },
   {
-    "objectID": "intro-to-data-science.html#diagnosing-diabetic-retinopathy",
-    "href": "intro-to-data-science.html#diagnosing-diabetic-retinopathy",
+    "objectID": "index.html#diagnosing-diabetic-retinopathy",
+    "href": "index.html#diagnosing-diabetic-retinopathy",
     "title": "Demystifying Data Science",
     "section": "Diagnosing Diabetic Retinopathy",
     "text": "Diagnosing Diabetic Retinopathy\nGrading retinal images is a high-level pattern recognition task. Perfect for deep learning!\n\nConvolutional neural networks are the most common deep learning architecture for image classification (though transformers are becoming more popular)\nSome common DL frameworks include PyTorch, TensorFlow, Keras, Lightning\n\nCould significantly reduce the grading workload, giving graders more time to focus on more complex cases."
   },
   {
-    "objectID": "intro-to-data-science.html#automating-dashboards-reports",
-    "href": "intro-to-data-science.html#automating-dashboards-reports",
+    "objectID": "index.html#automating-dashboards-reports",
+    "href": "index.html#automating-dashboards-reports",
     "title": "Demystifying Data Science",
     "section": "Automating Dashboards & Reports",
     "text": "Automating Dashboards & Reports\nThere’s a lot of data in the NHS, and a lot of reports to be generated from it.\n\nAutomating the generation of dahsboards andreports can save a lot of time\nData pipelines and workflow orchestration tools can be used to automate the process\nCould be used to generate reports on a regular basis\n\nCould save a lot of time for analysts, giving them time to focus on more complex tasks."
   },
   {
-    "objectID": "intro-to-data-science.html#modelling-excess-deaths-from-covid-19",
-    "href": "intro-to-data-science.html#modelling-excess-deaths-from-covid-19",
+    "objectID": "index.html#modelling-excess-deaths-from-covid-19",
+    "href": "index.html#modelling-excess-deaths-from-covid-19",
     "title": "Demystifying Data Science",
     "section": "Modelling Excess Deaths From COVID-19",
     "text": "Modelling Excess Deaths From COVID-19\nIt’s difficult to estimate excess deaths due to multiple factors.\n\nBayesian counterfactual inference can help do this1\nCan estimate expected deaths and compare this to the observed number of deaths\n\nThis could help to understand the impact of COVID-19 on the NHS, and could be used to inform future planning and resource allocation.\nCounterfactual Inference: Calculating Excess Deaths Due to COVID-19"
