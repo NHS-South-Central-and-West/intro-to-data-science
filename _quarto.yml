@@ -3,14 +3,19 @@ project:
 
 format: 
   revealjs:
-    theme: scw_theme.scss
-    # logo: man/figures/logo.jpg
-    transition: fade
-    background-transition: fade
-    email-obfuscation: javascript
-    controls: true
-    controls-layout: bottom-right
+    menu: false
+    controls: false
+    section-divs: true
     preview-links: true
+    embed-resources: true
+    transition: slide
+    background-transition: fade
+    navigation-mode: linear
+    email-obfuscation: javascript
+    theme: theme.scss
+
+revealjs-plugins:
+  - verticator
 
 code-link: true
 
@@ -20,7 +25,8 @@ execute:
 
 title-slide-attributes:
     data-background-image: "man/figures/logo.jpg"
-    data-background-position: "right 10% bottom 5%"
-    data-background-size: "25%"
+    data-background-position: "right 5% bottom 5%"
+    data-background-size: "22%"
     data-background-opacity: "1"
+
 from: markdown+emoji
