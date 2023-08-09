@@ -1,27 +1,27 @@
 ---
 title: "Demystifying Data Science"
-subtitle: "Understanding the Role Data Science Can Play in Healthcare"
+subtitle: "The Role Data Science Can Play in Healthcare"
 author: "Paul Johnson"
 ---
 
-## Introducing... Myself?
+## Introducing... Myself? {.center}
 
+::: {style="font-size:.9em"}
+<br>
+🧪 Principal Data Scientist - Population Health Analytics
 <br>
 <br>
-🧪 Principal Data Scientist - Population Health Management
+🎓 Previously: Political Scientist - University of Houston, Texas
 <br>
 <br>
-🎓 Previously a Political Scientist at University of Houston, Texas
-<br>
-<br>
-📈 Specialising in research design, statistical modelling & inference, and machine learning
+📈 Specialisms: Research Design, Statistical Inference, Machine Learning
+:::
 
-
-# What is Data Science?
+# What is Data Science? {data-background-color="#425563" data-verticator="#E8EDEE"}
 
 Beyond the Buzzwords
 
-## A New Field Built on Old Traditions
+## A New Field Built on Old Traditions {.center}
 
 ::: {#fig layout-ncol=2}
 
@@ -31,19 +31,19 @@ Beyond the Buzzwords
 
 :::
 
-## The Intersection of Statistics & Engineering
+## The Intersection of Statistics & Engineering {.center}
 
-<br><br>
+<br>
 
 > Data Scientist (n.): Person who is better at statistics than any software engineer and better at software engineering than any statistician.
 
-::: aside
+<br>
 
-&mdash; Josh Wills (@josh_wills) <a href="https://twitter.com/josh_wills/status/198093512149958656?ref_src=twsrc%5Etfw">May 3, 2012</a>
-
+::: {.small}
+&nbsp; &nbsp; &nbsp; &mdash; Josh Wills (@josh_wills) <a href="https://twitter.com/josh_wills/status/198093512149958656?ref_src=twsrc%5Etfw">May 3, 2012</a>
 :::
 
-## Jacks of All (Data) Trades
+## Jacks of All (Data) Trades {.center}
 
 Some common themes:
 
@@ -51,7 +51,7 @@ Some common themes:
 -   It combines elements of statistics, data analytics, software engineering, data engineering, and research science
 -   The potential skill set is so wide that this is usually served by multiple people in a data science team
 
-## Drawing Complex Insights
+## Drawing Complex Insights {.center}
 
 ![](man/figures/terminator-stats.png){fig-align="center"}
 
@@ -71,27 +71,27 @@ Some common themes:
 
 :::
 
-## It's All Just Statistics Anyway...
+## It's All Just Statistics Anyway (It's Not)... {.center}
 
 ![](man/figures/dog-stats.jpg){fig-align="center"}
 
-# The Data Science Skillset
+# The Data Science Skillset {data-background-color="#425563" data-verticator="#E8EDEE"}
 
 What Does a Data Scientist Look Like?
 
-## Dall-E Mini's 'Data Scientist'
+## Dall-E Mini's 'Data Scientist' {.center}
 
 ![When given the prompt "data scientist", this is what the GAN [Dall-E Mini](https://huggingface.co/spaces/dalle-mini/dalle-mini) returns...](man/figures/dalle-ds.png){fig-align="center"}
 
-## Foundational Skills
+## Foundational Skills {.center}
 
 -   Math - Linear algebra, calculus, probability & statistics
 -   Computer Science - Programming, software engineering, data engineering
 -   Research - Scientific reasoning & communication, quantitative methods, research design
-<br><br><br>
+<br><br>
 ... It is more than just coding!
 
-## Soft Skills are Equally as Important!
+## Soft Skills are Equally as Important! {.center}
 
 There is more to data science than the technical skills.
 
@@ -105,7 +105,7 @@ For example:
 
 Most of all, a passion for finding solutions to complex problems!
 
-## (Some) Domains of Data Science
+## (Some) Domains of Data Science {.center}
 
 -   Machine Learning
 -   Deep Learning
@@ -113,28 +113,28 @@ Most of all, a passion for finding solutions to complex problems!
 -   Data Engineering
 -   Software Engineering
 
-# Data Science in the NHS
+# Data Science in the NHS {data-background-color="#425563" data-verticator="#E8EDEE"}
 
 Why do we need it?
 
-## Technological Advancements
+## Technological Advancements {.center}
 
 -   The exponential growth in the availability (and complexity) of data demands a more complex approach than descriptive analytics
     -   Statistical models that replicate the complex data generating process
 -   The exponential growth in computing power has made these complex statistical models accessible beyond the tech industry and computer science research
 
-## Keeping Up with the Joneses
+## Keeping Up with the Joneses {.center}
 
 -   Every industry is experiencing these technological advancements
     -   Some industries are utilising it slower than others
 -   The NHS has a lot of data, and using it effectively serves significant public good
 -   Every CSU will realise this (if they haven't already)
 
-# Potential Use Cases
+# Potential Use Cases {data-background-color="#425563" data-verticator="#E8EDEE"}
 
 Where Can (and Has) Data Science Been Applied in Healthcare?
 
-## Predicting Hospital Readmissions
+## Predicting Hospital Readmissions {.center}
 
 Hospital readmissions are a significant cost to the NHS, and can be a sign of poor quality of care.
 
@@ -145,7 +145,7 @@ Hospital readmissions are a significant cost to the NHS, and can be a sign of po
 
 Could help to identify patients at risk of readmission and improve the quality of care.
 
-## Diagnosing Diabetic Retinopathy
+## Diagnosing Diabetic Retinopathy {.center}
 
 Grading retinal images is a high-level pattern recognition task. Perfect for deep learning!
 
@@ -154,7 +154,7 @@ Grading retinal images is a high-level pattern recognition task. Perfect for dee
 
 Could significantly reduce the grading workload, giving graders more time to focus on more complex cases.
 
-## Automating Dashboards & Reports
+## Automating Dashboards & Reports {.center}
 
 There's a lot of data in the NHS, and a lot of reports to be generated from it.
 
@@ -164,18 +164,16 @@ There's a lot of data in the NHS, and a lot of reports to be generated from it.
 
 Could save a lot of time for analysts, giving them time to focus on more complex tasks.
 
-## Modelling Excess Deaths From COVID-19
+## Modelling Excess Deaths From COVID-19 {.center}
 
 It's difficult to estimate excess deaths due to multiple factors.
 
--   Bayesian counterfactual inference can help do this[^1]
+-   [Bayesian counterfactual inference](https://www.pymc.io/projects/examples/en/latest/causal_inference/excess_deaths.html) can help do this
 -   Can estimate expected deaths and compare this to the observed number of deaths
 
 This could help to understand the impact of COVID-19 on the NHS, and could be used to inform future planning and resource allocation.
-
-[^1]: [Counterfactual Inference: Calculating Excess Deaths Due to COVID-19](https://www.pymc.io/projects/examples/en/latest/causal_inference/excess_deaths.html)
     
-# Thank You!
+# Thank You! {data-background-color="#425563" data-verticator="#E8EDEE"}
 
 For more information and to get involved:
 <br>
@@ -186,7 +184,7 @@ For more information and to get involved:
 
 <br>
 
-For Presentation Code & Data Science Resources:
+For Presentation Code & SCW Data Science Resources:
 <br>
 
 <ul >
